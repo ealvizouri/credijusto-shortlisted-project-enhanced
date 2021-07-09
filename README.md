@@ -5,7 +5,7 @@ If I'm the winner of these challenge you can be sure I'll take care of the proje
 
 # This is a timelapse proof of my work
 
-[timelapse](https://www.youtube.com/watch?v=a7jXOQlNlio).
+[Timelapse - 1min and 25 secs](https://www.youtube.com/watch?v=a7jXOQlNlio)
 
 # Before running the project
 
