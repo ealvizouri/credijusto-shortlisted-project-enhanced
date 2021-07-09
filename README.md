@@ -17,7 +17,7 @@ If I'm the winner of these challenge you can be sure I'll take care of the proje
 
 # ABOUT THIS PROJECT
 
-Enhancements:
+Things to improve:
 
 - Old fashion background
 - No fonts
