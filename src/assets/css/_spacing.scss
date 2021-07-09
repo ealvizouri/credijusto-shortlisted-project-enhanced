@@ -1,0 +1,44 @@
+$spaces: 0 0, 1 0.5rem, 2 1rem, 3 1.5rem;
+$terms: "margin" "m", "padding" "p";
+
+@each $term, $short in $terms {
+  @each $space, $val in $spaces {
+    .#{$short} {
+      &-#{$space} {
+        #{$term}: $val;
+      }
+      &t-#{$space} {
+        #{$term}-top: $val;
+      }
+      &r-#{$space} {
+        #{$term}-right: $val;
+      }
+      &b-#{$space} {
+        #{$term}-bottom: $val;
+      }
+      &l-#{$space} {
+        #{$term}-left: $val;
+      }
+      &x-#{$space} {
+        #{$term}-left: $val;
+        #{$term}-right: $val;
+      }
+      &y-#{$space} {
+        #{$term}-top: $val;
+        #{$term}-bottom: $val;
+      }
+    }
+  }
+}
+
+.text {
+  &-left {
+    text-align: left;
+  }
+  &-center {
+    text-align: center;
+  }
+  &-right {
+    text-align: right;
+  }
+}

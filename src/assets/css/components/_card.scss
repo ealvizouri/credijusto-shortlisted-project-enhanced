@@ -1,0 +1,11 @@
+.card {
+  border: 1px solid $gray;
+  background-color: $white;
+  box-shadow: 4px 4px 7px 0px #0000004a;
+  border-radius: 5px;
+  min-width: 250px;
+  overflow: hidden;
+  &__header {
+    background-color: $gallery;
+  }
+}

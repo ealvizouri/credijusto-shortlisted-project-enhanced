@@ -1,0 +1,42 @@
+$positions: "top", "right", "bottom", "left";
+$borderWidths: 1, 2, 3;
+$borderStyles: "solid", "dotted", "dashed";
+
+@each $width in $borderWidths {
+  .border-#{$width} {
+    border-width: #{$width}px;
+  }
+  @each $position in $positions {
+    .border-#{$position}-#{$width} {
+      border-#{$position}-width: #{$width}px;
+    }
+  }
+}
+
+@each $name, $color in $colors {
+  .border-#{$name} {
+    border-color: $color;
+  }
+  @each $position in $positions {
+    .border-#{$position}-#{$name} {
+      border-#{$position}-color: $color;
+    }
+  }
+}
+
+@for $i from 1 through 5 {
+  .radius-#{$i} {
+    border-radius: #{$i}px;
+  }
+}
+
+@each $style in $borderStyles {
+  .border-#{$style} {
+    border-style: #{$style};
+  }
+  @each $position in $positions {
+    .border-#{$position}-#{$style} {
+      border-#{$position}-style: #{$style};
+    }
+  }
+}

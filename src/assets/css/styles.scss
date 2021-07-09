@@ -1,0 +1,67 @@
+/**
+ * @author Cesar Verduzco Reyna <cesar11augusto95@hotmail.com> 
+ * @description general styles of the project
+ * @version 1.0
+ * * Version description:
+ * v1.0 Created Document and the basic styles
+ * @date Created at 16/06/2021 Last Modified at 18/06/2021 
+ * @status In Used
+*/
+
+@import "variables";
+@import "fonts";
+@import "forms";
+@import "grid";
+@import "spacing";
+@import "borders";
+@import "components/main";
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-image: url("../images/cryptoBackground.jpeg");
+  background-size: contain;
+  color: $tundora;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-overlay {
+  background-color: white;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+/**
+* Creating grid accord to the size different than mobile
+*/
+@media only screen and (min-width: 768px) {
+}

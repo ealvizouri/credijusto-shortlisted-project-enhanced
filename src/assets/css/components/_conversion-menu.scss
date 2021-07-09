@@ -1,0 +1,37 @@
+.conversion-menu {
+  border: 1px solid gray;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 1px 1px 20px 0px #b9b9b982;
+  input {
+    border: 1px solid white;
+    width: 100px;
+    &:focus-visible {
+      outline: 0;
+    }
+    @media only screen and (min-width: 768px) {
+      width: auto;
+    }
+  }
+
+  .btn-crypto {
+    width: 60px;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    &.active,
+    &:hover {
+      color: $white;
+    }
+    &.active {
+      background-color: $keppel;
+    }
+    &:hover {
+      background-color: $elm;
+    }
+    @media only screen and (min-width: 768px) {
+      width: 150px;
+      height: 50px;
+    }
+  }
+}

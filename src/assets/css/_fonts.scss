@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&family=Montserrat:wght@100;400;500;700&display=swap");
+
+body,
+input {
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+input {
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 5px 0 2px 0;
+}
+
+// initial weight
+$w: 100;
+@while $w < 1000 {
+  .text-#{$w} {
+    font-weight: $w;
+  }
+  $w: $w + 100;
+}
+
+.text {
+  &-italic {
+    font-style: italic;
+  }
+
+  &-oblique {
+    font-style: oblique;
+  }
+}

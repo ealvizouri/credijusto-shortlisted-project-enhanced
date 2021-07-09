@@ -1,0 +1,18 @@
+.header-nav {
+  background-color: white;
+  box-shadow: 1px 1px 20px 0px #b9b9b982;
+  position: relative;
+  z-index: 1;
+  h1.logo {
+    margin: 0 0 0 5px;
+  }
+  .welcome {
+    a {
+      color: $keppel;
+    }
+    svg {
+      margin: 0 10px;
+      width: 20px;
+    }
+  }
+}

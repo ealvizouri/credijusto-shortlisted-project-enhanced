@@ -1,0 +1,33 @@
+/**
+ * @author Cesar Verduzco Reyna <cesar11augusto95@hotmail.com> 
+ * @description variables to use in this projects
+ * @version 1.0
+ * * Version description:
+ * v1.0 Created Document
+ * @date Created at 16/06/2021 Last Modified at 16/06/2021 
+ * @status In Used
+*/
+
+$white: #fff;
+$keppel: #34a4a3;
+$elm: #207979;
+$gallery: #ececec;
+$gray: #ababab;
+$boulder: #7d7d7d;
+$tundora: #454545;
+$turquoise: #35ddcc;
+
+$colors: (
+  white: $white,
+  keppel: $keppel,
+  elm: $elm,
+  gallery: $gallery,
+  gray: $gray,
+  turquoise: $turquoise,
+  boulder: $boulder,
+  tundora: $tundora,
+);
+
+$spinner-width: 2rem;
+$spinner-height: 2rem;
+$spinner-border-width: 0.25em;
