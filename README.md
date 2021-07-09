@@ -3,6 +3,10 @@
 Hey CrediJusto Team and Optimhire Team, I'm glad to participate in this challenge. Sorry for the delay, I have to take care of my job first.
 If I'm the winner of these challenge you can be sure I'll take care of the projects as well.
 
+# This is a timelapse proof of my work
+
+[timelapse](https://www.youtube.com/watch?v=a7jXOQlNlio).
+
 # Before running the project
 
 #### `npm install`
