@@ -17,7 +17,7 @@ If I'm the winner of these challenge you can be sure I'll take care of the proje
 
 # ABOUT THIS PROJECT
 
-There is room for improvement:
+Enhancements:
 
 - Old fashion background
 - No fonts
