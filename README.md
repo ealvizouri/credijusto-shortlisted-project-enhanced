@@ -21,5 +21,5 @@ There is room for improvement:
 - Buttons are kind of the default
 - Welcoming Card and the others for Crypto price history are unnecessary and ugly
 - Crypto buttons when hovering the border makes it flicker and it feels weird
-- When changing main Crypto to convert it, MX amount resets.}
+- When changing main Crypto to convert it, MX amount resets.
 - Datetimes are not friendly
